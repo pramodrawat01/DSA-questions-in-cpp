@@ -1,4 +1,4 @@
-//display nth position element of fibonacci series 
+//display nth position element of fibonacci series
 
 #include<iostream>
 using namespace std;
