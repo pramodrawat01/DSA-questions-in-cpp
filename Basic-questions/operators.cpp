@@ -29,6 +29,14 @@ int main(){
     int num2 = ~5; // convert all 1's bits into 0 and 0's bits into 1 and then find 2's complement for answer
     cout << "Complement operator : " << num2 << endl;
 
+    // '<<' (left shift operator)
+    int num3 = 5<<1; // shift every bit of 5 to one place left
+    cout << "leftshift operator : " << num3 << endl;
+
+    // '>>' (right shift operator)
+    int num4 = 6>>2; // shift every bit of 6 to two place right
+    cout << "rightshift operator : " << num4 << endl;
+
 
     return 0;
 }
