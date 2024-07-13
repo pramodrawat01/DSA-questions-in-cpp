@@ -1,4 +1,4 @@
-// 1: Take a number n from the user and print all the even numbers between 1 and n(inclusive). Do this using while and do while loop separately.
+// 1: Take a number n from the user and print all the even numbers between 1 and n(inclusive). Do this using while  loop.
 
 #include<iostream>
 using namespace std;
@@ -10,14 +10,12 @@ int main(){
 
     int i=2;
     while(i<=number){
-        // cout << i << " ";
-        // i+=2;
-
+        cout << i << " ";
+        i+=2;
         //alternate way
-
-        if(i%2==0)
-            cout << i << " ";
-        i++;
+        // if(i%2==0)
+        //     cout << i << " ";
+        // i++;
     }
     return 0;
 }
