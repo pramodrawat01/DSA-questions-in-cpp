@@ -1,4 +1,4 @@
-//: Given a number n, print all the numbers from 1 to n(inclusive) which are not divisible by 3 and 5. (use Continue here).
+// Given a number n, print all the numbers from 1 to n(inclusive) which are not divisible by 3 and 5. (use Continue here).
 #include<iostream>
 using namespace std;
 int main(){
@@ -6,6 +6,7 @@ int main(){
     cout << "Enter a number n : ";
     cin >> n;
 
+    //using for loop
     // for(int i=1; i<=n; i++){
     //     if(i%3==0 || i%5==0){
     //         continue;
@@ -13,6 +14,7 @@ int main(){
     //     cout << i << endl;
     // }
 
+    //using while loop
     int i=1;    
     while(i<=n){
         if(i%3==0 || i%5==0){
