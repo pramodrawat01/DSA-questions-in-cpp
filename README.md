@@ -1,2 +1,2 @@
 # DSA-questions-in-cpp
-This repository is for dsa questions from basic to advance
+This repository contains DSA questions
