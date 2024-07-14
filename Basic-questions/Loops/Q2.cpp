@@ -6,19 +6,41 @@ int main(){
     cout << "Enter a number n : ";
     cin >> n;
 
-    int i=1;
-    while(i<=n){
-        if(i%3!=0 && i%5!=0){
-            cout << i << ", ";
-        }  
-        // if(i%3!=0){
-        //     continue;
+    // for(int i=1; i<=n; i++){
+    //     if(i%3==0 || i%5==0){
+    //         continue;
+    //     }
+    //     cout << i << endl;
+    // }
 
-        // } 
-        // if(i%5!=0){
-        //     cout << i << ", ";
-        // }
+    int i=1;    
+    while(i<=n){
+        if(i%3==0 || i%5==0){
+            i++;
+            continue; //continue statement skip the rest of the current iteration and move to the next iteration ofthe loop
+        }
+        cout << i << ", ";
         i++;
     }
     return 0;
 }
+// GPT-using function
+// #include <iostream>
+
+// void printNonDivisibleBy3And5(int n) {
+//     int i = 1;
+//     while (i <= n) {
+//         if (i % 3 == 0 || i % 5 == 0) {
+//             ++i;
+//             continue;
+//         }
+//         std::cout << i << std::endl;
+//         ++i;
+//     }
+// }
+
+// int main() {
+//     int n = 20; // You can change this value to test with other numbers
+//     printNonDivisibleBy3And5(n);
+//     return 0;
+// }
