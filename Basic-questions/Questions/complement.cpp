@@ -15,9 +15,10 @@ int main(){
     while (num>0)
     {
         rem=num%2;
-        rem^=1;
-        ans=rem*i+ans;
-        i*=2;
+        rem^=1;                     //this binary operator(exor ^) will convert 0 into 1 and 1 into 0
+        //ans = ans*10 +rem;        //this line will print the complement as it is
+        ans=rem*i+ans;              //these 2 line of code will convert that binary complement into decimal
+        i*=2;                       //*
         num/=2;
     }
     cout << ans << endl;
