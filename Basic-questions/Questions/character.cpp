@@ -1,4 +1,4 @@
-// print characters in small and letter
+// print characters in small and chapital letter
 
 #include<iostream>
 using namespace std;

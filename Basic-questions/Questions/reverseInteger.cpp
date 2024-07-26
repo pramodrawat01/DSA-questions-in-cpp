@@ -14,7 +14,7 @@ int main(){
     while(number>0){
         rem=number%10;
         number /= 10;
-        if(ans>INT_MAX/10 || ans<INT_MIN/10){   // if ans is greater then INT_MAX or less then INT_MIN than return 0
+        if(ans>INT_MAX/10 || ans<INT_MIN/10){   // to avoid integer overflow 
             cout << "0" << endl;
             return 0;
         }

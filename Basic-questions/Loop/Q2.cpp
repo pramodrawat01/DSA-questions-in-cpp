@@ -26,7 +26,7 @@ int main(){
     }
     return 0;
 }
-// GPT-using function
+// GPT answer using function
 // #include <iostream>
 
 // void printNonDivisibleBy3And5(int n) {
