@@ -1,0 +1,6 @@
+questions of array : -
+
+Q - leader element in an array
+
+Q - pair sum in an array
+    find all pairs first -> store in pair set -> print the pair set 
