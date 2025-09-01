@@ -4,3 +4,5 @@ Q - leader element in an array
 
 Q - pair sum in an array
     find all pairs first -> store in pair set -> print the pair set 
+
+Q- Dutch_National_Flag - sort 0s and 1s
